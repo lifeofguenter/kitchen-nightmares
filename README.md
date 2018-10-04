@@ -47,6 +47,10 @@ $ sudo chef-server-ctl org-user-add --admin lab foobar
 $ sudo chef-server-ctl org-create lab 'Lab Rats' --association_user 'foobar' --filename lab-validator.pem
 ```
 
+### Knife
+
+Your tool to manage chef (e.g. the org with its nodes) from your workstation: [Knife](KNIFE.md)
+
 ### Chef-node
 
 #### Bootstrapping
